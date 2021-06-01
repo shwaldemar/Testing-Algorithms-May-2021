@@ -4,6 +4,7 @@
 I created this folder to show case some algorithms & some Class/Unit tests in a couple of languages.
 INDEX
 1. stringMutation.js An algorithm (written in Javascript) to see if one word contains all the chars in another. Brief, notes & forward at the start.
+2. Concise String Mutation directory & conciseStrMut.js & conciseStrMutTests.js added.
 
 I hope it is informative & relevant for you.
 
