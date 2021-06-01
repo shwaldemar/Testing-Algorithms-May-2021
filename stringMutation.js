@@ -21,6 +21,7 @@ const mutationOfString = (stringArray) => {
 };
 
 //test data
+/*
 const algDataTest = () => {
   let dataTest1Result = mutationOfString(test1);
   let dataTest2Result = mutationOfString(test2);
@@ -31,3 +32,5 @@ const algDataTest = () => {
 
 //call test algDataTest.
 console.log(algDataTest(test1, test2, test3));
+//Data tests successful. As such commented out 👍.
+*/
