@@ -1,11 +1,28 @@
-/*
-Return true if the string in the first element of the array contains all of the letters of the string in the second element of the array.
+/* Return true if the string in the first element of the
+array contains all of the letters of the string in the
+second element of the array.For example, ['hello', 'Hello'], should return true because all of the letters in the second string are
+present in the first, ignoring case.The arguments ['hello', 'hey'] should return false because the string 'hello' does not contain a 'y'. Lastly, ['Alien', 'line'], should return true because all of the letters in 'line' are present in 'Alien'.*/
 
-For example, ['hello', 'Hello'], should return true because all of the letters in the second string are present in the first, ignoring case.
 
-The arguments ['hello', 'hey'] should return false because the string 'hello' does not contain a 'y'.
+/* FORWARD/NOTES & EXPLANAITION START.
+1. This is a straight forward algorithm I have used to layout methodical & rigorous approach to development. Also I have used it as a showcase for use of ES6 & awareness of latency (using a for loop over enumerators… At this scale no diff/bigData…DIFF).
+2. Test data/arrays prepared at outset.
+- Arrays are joined(‘-‘)
+- changed to lowercase
+- Split(‘-‘)
+2. Main function takes 1 test array.
+3. Detailed comments on what happens at each stage are included throughout.
+4. Numbered tests/logs are included throughout to display all variables & types. N.B. commented out as they passed.
+5. TestArr is cloned using ES6 - testArr1 = […testArr].
+6. Internal function ‘testing1(testArray1)’ variables[target(ARRAY), hypothesis(ARRAY)]are prepared in advance with split(‘’). The final variable for the return statement is also prepared in advance (ARRAY) - containing [testArr1, ‘Result:’, false].
+7. testArray1 is destructured using ES6 to make the variables easily available for the Internal function ‘’testing1(testArray1).
+8. A for loop is used to iterate through the elements of the hypothesis array & confirm whether the target array contains all. If one is not there it returns the final variable with a false value… final = [testArr1, ‘Result’, false]. Otherwise it continues until complete… If all elements match… the final variable is assigned a true boolean value.
+9. Outside the Loop the internal function testing1 is called with testing1(testArr1) & final is returned once data prep, iteration & comparison are completed.
+10. The tests are called using/log and they are called individually to ensure max chance of spotting any anomalies with data & logic.
+11. I would normally go on to create a function to run as many tests as you can imagine. However this is a pretty basic algorithm & I should move on to testing a more concise version with Mocha.
+12. Mocha is a testing library for Node. js, created to be a simple, extensible, and fast. It's used for unit and integration testing, and it's a great candidate for BDD (Behavior Driven Development).
 
-Lastly, ['Alien', 'line'], should return true because all of the letters in 'line' are present in 'Alien'.
+FORWARD/NOTES & EXPLANAITION END
 */
 
 //Global Variables
@@ -22,7 +39,7 @@ let test3 = ['Alien', 'line'].join('-').toLowerCase().split('-');
 const mutationOfString = (testArr) /* tests = Array of tests */ => {
   //PART 1.
   //ES6 CLONE PARAM ARRAY
-  let testArr1 = [...testArr]
+  let testArr1 = [...testArr];
 
   //Prepare variable 'target' to see whether it has all the others chars.
   let target = testArr1[0].split('');
