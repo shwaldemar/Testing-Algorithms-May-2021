@@ -4,7 +4,7 @@ second element of the array.For example, ['hello', 'Hello'], should return true 
 present in the first, ignoring case.The arguments ['hello', 'hey'] should return false because the string 'hello' does not contain a 'y'. Lastly, ['Alien', 'line'], should return true because all of the letters in 'line' are present in 'Alien'.*/
 
 
-/* FORWARD/NOTES & EXPLANAITION START.
+/*-------------------------------FORWARD/NOTES & EXPLANAITION START-------------------------------
 1. This is a straight forward algorithm I have used to layout methodical & rigorous approach to development. Also I have used it as a showcase for use of ES6 & awareness of latency (using a for loop over enumerators… At this scale no diff/bigData…DIFF).
 2. Test data/arrays prepared at outset.
 - Arrays are joined(‘-‘)
@@ -22,7 +22,7 @@ present in the first, ignoring case.The arguments ['hello', 'hey'] should return
 11. I would normally go on to create a function to run as many tests as you can imagine. However this is a pretty basic algorithm & I should move on to testing a more concise version with Mocha.
 12. Mocha is a testing library for Node. js, created to be a simple, extensible, and fast. It's used for unit and integration testing, and it's a great candidate for BDD (Behavior Driven Development).
 
-FORWARD/NOTES & EXPLANAITION END
+-------------------------------FORWARD/NOTES & EXPLANAITION END-------------------------------
 */
 
 //Global Variables
