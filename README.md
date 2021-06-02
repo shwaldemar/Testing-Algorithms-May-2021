@@ -14,7 +14,7 @@ INDEX
 
 I hope it is informative & relevant for you.
 
-P.S. You might??? Enjoy my YouTube Channel containing video recordings of me playing/guitar-ing my own compositions { https://www.youtube.com/channel/UCDCjGcV_HUBOssChVM4CKhw }.
+
 
 Best wishes,
 Simon
