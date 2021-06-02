@@ -105,8 +105,11 @@ The various types of the version control systems are: 
 3. Distributed Version Control System.
 
 
-14.1 For this folder I am using GitHub version control system. I could just as easily used GitBucket or another version control system. There are many!
-14.2 Now most active development and enhancement normally happens on a branch off Master. This is done to protect the integrity & functionality of fully functional operational code.
+14.1 For this folder I am using GitHub version control system.
+I could just as easily used GitBucket or another version control
+system. There are many!
+14.2 Now most active development and enhancement normally happens
+on a branch off Master. This is done to protect the integrity & functionality of fully functional operational code.
 14.3 Better Version Control Structure & practice
 
 14.4 VERSION CONTROL BRANCH STRUCTURE:
@@ -114,9 +117,13 @@ The various types of the version control systems are: 
 
 14.4.2. Development (Code that is ready to integrate/merge)
 
-14.4.3. Feature Branches (Specifically named {E.G.Separate nested function}.
-In any codebase there will be many!).
-N.B. These are used to make specific system enhancements and... Once/when fully tested in isolation are ready for respectful & careful testing & merge with the development branch...And from there... ready for respectful & careful testing & merge with the Master branch.
+14.4.3. Feature Branches (Specifically named {E.G.Separate nested
+function}. In any codebase there will be many!).
+N.B. These are used to make specific system enhancements and...
+Once/when fully tested in isolation are ready for respectful &
+careful testing & merge with the development branch...And from
+there... ready for respectful & careful testing & merge with the
+Master branch.
 
 -------------------------------FORWARD/NOTES & EXPLANAITION END-----------
 */
