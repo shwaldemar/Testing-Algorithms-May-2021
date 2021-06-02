@@ -6,13 +6,15 @@ INDEX
 1. stringMutation.js An algorithm (written in Javascript) to see if one word contains all the chars in another. Brief, notes & forward at the start. Also brief overview version control.
 2. Concise String Mutation directory & conciseStrMut.js & conciseStrMutTests.js added.
 3. Things to follow...
-- Type up 2 Industry E.G's for testing MS Word Doc { Testing Notes}.
+- Type up 2 Industry E.G's for testing MS Word Doc { Testing Notes }.
 - Algo tests Javascript using Mocha framework.
 - Algo tests Python unittest framework.
 - Algo tests Java Junit framework.
 - Algo tests Ruby Minitest framework.
 
 I hope it is informative & relevant for you.
+
+P.S. You might??? Enjoy my YouTube Channel containing video recordings of me playing/guitar-ing my own compositions
 
 Best wishes,
 Simon
