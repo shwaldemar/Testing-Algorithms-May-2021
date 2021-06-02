@@ -12,17 +12,18 @@ ignoring case.
 letters in 'line' are present in 'Alien'.
 -------------------------------END OF BRIEF-------------------------------*/
 /*-----------------------------FORWARD/NOTES & EXPLANAITION START---------
-1. This is a straight forward algorithm I have used to
+1.0 This is a straight forward algorithm I have used to
 layout methodical & rigorous approach to development.
 Also I have used it as a showcase for use of ES6 &
 awareness of latency (using a for loop over enumerators…
 At/In this scale no diff/bigData…DIFF).
-2. Test data/arrays prepared at outset.
+1.1 I Have used strings, arrays and objects throughout to rangle data in to suitable format for the tasks in hand. N.B. ...I will go on to chain ".methods" & "enumerators"[map, filter, reduce, every...] in other algorithms in this "TestingAndAlgorithms" folder.
+2. Test data/arrays/objects are prepared at outset & in advance of processing throughout.
 - Arrays are joined(‘-‘)
 - changed to lowercase
 - Split(‘-‘)
 2. Main function takes 1 test array.
-3. Detailed comments on what happens at each stage are
+3. Detailed COMMENTS on what happens at each stage are
 included throughout.
 4. Numbered tests/logs are included throughout to display
 all variables & types. N.B. commented out as they passed.
@@ -52,8 +53,64 @@ with data & logic.
 tests... However this is a pretty basic algorithm & I should
 move on to testing a more concise version with Mocha.
 12. Mocha is a testing library for Node. js, created to be a
-simple, extensible, and fast. It's used for unit and integration
-testing, and it's a great candidate for BDD (Behavior Driven Development).
+simple, extensible, and fast. It's used for unit and
+integration testing, and it's a great candidate for BDD
+- Behavior Driven Development.
+13.0 QUESTION - Now... a function with an internal function
+that is recursively called before the final return statement?
+... Not great design eh? Wouldn't be better to separate
+that/"split that out" as a named function that can still be
+called before the final return statement?
+13.1 ANSWER - YUP! However it neatly demonstrates how one
+deals with "tangled knitting" in a structured fashion...
+And... having slept on it... The understanding to recognise
+this and consider how it might be structured in a more logical
+AND... TESTABLE fashion... Hard to rigorously test a function
+that is nested/contained within another... AIN'T IT?
+14.0 I have pushed this all up to GitHub demonstrating basic
+awareness and utilisation of version control.
+
+VERSION CONTROL - Definition: In software engineering, version
+control is a class of systems responsible for managing changes
+to computer programs, documents, large web sites, or other
+collections of information. Version control is a component of
+software configuration management.
+
+Version Control Systems are process management systems which
+maintain changes recorded in a file or set of files over period
+of time. Each change is maintained as a version.
+
+Users can track specific versions later. Version control systems
+are also called as revision control systems. Revision control
+systems work as independent standalone applications. Applications
+like spreadsheets and word processors have control mechanisms. The
+unique features of version control system/ revision control system
+are as follows:
+
+- Up to date history is available for the document and file types. 
+It does not require any other repository systems. The repositories
+can be cloned as per the need and availability. This is extremely
+helpful in case of failure and accidental deletions. VCS includes
+tag system which helps in differentiating between alpha, beta or
+various release versions for different documents.
+For example, changes made in code base among developers include
+version control system for tracking changes with specific lines.
+The various types of the version control systems are: 
+1. Local Version Control System.
+ 2. Centralized Version Control System.
+3. Distributed Version Control System.
+
+
+14.1 For this folder I am using GitHub version control system. I could just as easily used GitBucket or another version control system. There are many!
+14.2 Now most active development and enhancement normally happens on a branch off Master. This is done to protect the integrity & functionality of fully functional operational code.
+14.3 Better Version Control Structure & practice
+Master (Code that is running efficiently - TO BE RESPECTED!)
+
+Development (Code that is ready to integrate/merge)
+
+Feature Branches (Specifically named)
+N.B. These are used to make specific system enhancements and... Once/when fully tested in isolation are ready for respectful & careful testing & merge with the development branch...And from there... ready for respectful & careful testing & merge with the Master branch.
+
 
 -------------------------------FORWARD/NOTES & EXPLANAITION END-----------
 */
