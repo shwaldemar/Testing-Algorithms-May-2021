@@ -17,7 +17,11 @@ layout methodical & rigorous approach to development.
 Also I have used it as a showcase for use of ES6 &
 awareness of latency (using a for loop over enumerators…
 At/In this scale no diff/bigData…DIFF).
-1.1 I Have used strings, arrays and objects throughout to rangle data in to suitable format for the tasks in hand. N.B. ...I will go on to chain ".methods" & "enumerators"[map, filter, reduce, every...] in other algorithms in this "TestingAndAlgorithms" folder.
+1.1 I Have used strings, arrays and objects throughout to
+rangle data in to suitable format for the tasks in hand. N.B.
+...I will go on to chain ".methods" & "enumerators"[map, filter,
+reduce, every...] in other algorithms in this "TestingAndAlgorithms"
+folder.
 2. Test data/arrays/objects are prepared at outset & in advance of processing throughout.
 - Arrays are joined(‘-‘)
 - changed to lowercase
