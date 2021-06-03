@@ -15,11 +15,12 @@ INDEX
 I hope it is informative & relevant for you.
 
 
-
 Best wishes,
+
 Simon
 --
 Simon Hall
-LinkedIn url: https://www.linkedin.com/in/simonshhall/
+
+LinkedIn url: [ https://www.linkedin.com/in/simonshhall/ ]
 
 */
