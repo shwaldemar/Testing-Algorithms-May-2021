@@ -17,6 +17,7 @@ describe('sumAll', function () {
     console.log(`result: ${result}, expected: ${expected}`);
     assert.equal(result, expected);
   });
+
 });
 
 describe('mutation', function () {
