@@ -16,3 +16,17 @@ describe('sumAll', function () {
     assert.equal(result, expected);
   });
 });
+
+describe('mutation', function () {
+  it('returns true', function () {
+    let result = app.mutation(['Hello', 'hello']);
+    let expected = true;
+    assert.equal(result, expected);
+  });
+
+  it('returns false', function () {
+    let result = app.mutation(['Hello', 'hey']);
+    let expected = false;
+    assert.equal(result, expected);
+  });
+});
